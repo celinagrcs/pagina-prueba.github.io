@@ -51,7 +51,6 @@ h1, h3{
     width: 200px;
     height: 200px;
     border-radius: 5px;
-    background-color: blueviolet;
     transition: all 1s;
     transition-timing-function:cubic-bezier(1, 0.35, 1, 1);
     cursor: pointer;
