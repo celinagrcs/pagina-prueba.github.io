@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: #a8dadc;
+}
+
+h1{
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  
+}
+
+h1, h3{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #f2f2f2;
+}
+
+.card-container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.card-container2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.card-container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.card{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    transition: all 1s;
+    transition-timing-function:cubic-bezier(1, 0.35, 1, 1);
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+} 
+
+.card1{
+    background-image: url("./imagenes/WhatsApp\ Image\ 2023-10-28\ at\ 16.34.48.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card2{
+    background-image: url("./imagenes/WhatsApp\ Image\ 2023-10-28\ at\ 16.35.59.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card3{
+    background-image: url("./imagenes/WhatsApp\ Image\ 2023-10-28\ at\ 16.36.00\ \(1\).jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card4{
+    background-image: url("./imagenes/WhatsApp\ Image\ 2023-10-28\ at\ 16.36.00.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card5{
+    background-image: url("./imagenes/WhatsApp\ Image\ 2023-10-28\ at\ 16.38.48.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card6{
+    background-image: url("./imagenes/sofiyyo.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card7{
+    background-image: url("./imagenes/WhatsApp\ Image\ 2023-10-28\ at\ 16.57.06\ \(1\).jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card8{
+    background-image: url("./imagenes/WhatsApp\ Image\ 2023-10-28\ at\ 17.25.48.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card9{
+    background-image: url("./imagenes/WhatsApp\ Image\ 2023-10-30\ at\ 10.55.19.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card9 h4{
+    color: #f2f2f2;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+.card1-hover:hover{
+    width: 500px;
+    background-image: url("./imagenes/tumblr_l9bg0vwUgN1qzrl6wo1_500.png");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.card2-hover:hover{
+    width: 500px;
+    background-image: url("./imagenes/vepbbxrvqe6amqgoykid.webp");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.card3-hover:hover{
+    width: 700px;
+    background-image: url("./imagenes/20555686-low-.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.card4-hover:hover{
+    width: 500px;
+    background-image: url("./imagenes/627a9b1d5f2480203db0ba0e4232b5dc.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.card5-hover:hover{
+    width: 500px;
+    background-image: url("./imagenes/ted-lasso-season-2-brendan-hunt-jason-sudeikis-nick-mohammed-coach-beard-ted-lasso-nate-1627642586.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+
+.card6-hover:hover{
+    width: 500px;
+    background-image: url("./imagenes/joey-chandler-friends.webp");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.card7-hover:hover{
+    width: 500px;
+    background-image: url("./imagenes/Untitled.png");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.card8-hover:hover{
+    width: 700px;
+    background-image: url("./imagenes/tumblr_cde6d77549741c1a675d122b7454ab04_ef910e9a_540.gif");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.card9-hover:hover{
+    width: 700px;
+    background-image: url("./imagenes/criminal-minds-evolution-cast-matthew-gray-gubler-spencer-instagram-1663886536.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
